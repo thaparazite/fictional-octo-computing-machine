@@ -1,8 +1,13 @@
+
 /**
 * CSS file to hold styles that apply across the application
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -122,4 +127,20 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* Slide In Left Animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: "1s ease-out 0s 1 slideInLeft";
 }

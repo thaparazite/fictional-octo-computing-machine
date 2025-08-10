@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Education from "./Components/Education";
 
 import "./styles.css";
 
@@ -38,6 +39,26 @@ const siteProps = {
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
+// grid of 4 education cells
+const education = [
+  {
+    degree: "B.Sc. Computer Science",
+    institution: "University of Example",
+  },
+  {
+    degree: "M.Sc. Software Engineering",
+    institution: "Institute of Technology",
+  },
+  {
+    degree: "Ph.D. Artificial Intelligence",
+    institution: "AI Research Center",
+  },
+  {
+    degree: "Diploma in UX Design",
+    institution: "Design Academy",
+  },
+];
+
 const App = () => {
   return (
     <div id="main">
@@ -45,6 +66,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Education education={education} />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
