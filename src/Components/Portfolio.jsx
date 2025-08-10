@@ -54,6 +54,30 @@ const projectList = [
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
+  {
+    title: "Personal Portfolio Website",
+    description:
+      "Designed and developed a personal portfolio website to showcase my projects, skills, and experience using React and CSS animations.",
+    url: "https://github.com/yourusername/portfolio-website",
+  },
+  {
+    title: "Open Source Contribution: FreeCodeCamp",
+    description:
+      "Contributed bug fixes and documentation improvements to the FreeCodeCamp open source curriculum.",
+    url: "https://github.com/freeCodeCamp/freeCodeCamp",
+  },
+  {
+    title: "Blog: JavaScript Tips & Tricks",
+    description:
+      "Wrote a series of blog posts sharing useful JavaScript tips, best practices, and code snippets for beginners.",
+    url: "https://dev.to/yourusername/javascript-tips-and-tricks",
+  },
+  {
+    title: "UI Design for Nonprofits",
+    description:
+      "Volunteered to design user interfaces for nonprofit organizations, focusing on accessibility and user experience.",
+    url: "https://www.behance.net/yourusername",
+  },
 ];
 
 const Portfolio = () => {
